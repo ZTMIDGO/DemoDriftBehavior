@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.litesnap.open.drift.view.MyCoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <Button
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <Button
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <Button
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <Button
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <Button
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <Button
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        app:layout_behavior="@string/behavior_drift">
+        <com.litesnap.open.drift.view.NestedLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rect_radius_5dp_gray"
+            android:id="@+id/duoy"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/rect_10dp_radius_white"
+                    android:layout_width="60dp"
+                    android:layout_height="3dp"/>
+            </RelativeLayout>
+        </com.litesnap.open.drift.view.NestedLinearLayout>
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/drift_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#69cfd4">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</com.litesnap.open.drift.view.MyCoordinatorLayout>

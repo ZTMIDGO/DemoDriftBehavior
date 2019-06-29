@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoDriftBehavior</string>
+    <string name="behavior_drift">com.litesnap.open.drift.behavior.DriftBehavior</string>
+</resources>
